@@ -1,9 +1,22 @@
+
+
 .alert__message-success{
     background-color: rgb(203, 225, 203);
     color: rgb(62, 82, 27);
     padding: 30px;
     font-size: 20px;
     text-align: center;
+}
+
+.alert__message-danger{
+    background-color: pink;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .create-form{
@@ -42,6 +55,7 @@
     border: none;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .todo-table__inner{
