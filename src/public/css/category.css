@@ -1,6 +1,4 @@
-
-
-.alert__message-success{
+.alert__message-success {
     background-color: rgb(203, 225, 203);
     color: rgb(62, 82, 27);
     padding: 30px;
@@ -8,61 +6,50 @@
     text-align: center;
 }
 
-.alert__message-danger{
+.alert__message-danger {
     background-color: pink;
     padding: 10px;
     font-size: 20px;
     text-align: center;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.create-form{
+.create-form {
     max-width: 1230px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
 
-.create-form__title{
+.create-form__title {
     margin-top: 100px;
 }
 
-.create-form__inner{
+.create-form__inner {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.create-form__input{
-    width: 60%;
+.create-form__input {
+    width: 70%;
     height: 50px;
 }
 
-.create-form__input-text{
+.create-form__input-text {
     width: 100%;
     height: 50px;
     border: 1px solid gainsboro;
     border-radius: 5px;
 }
 
-.create-form__category{
-    width: 15%;
-    height: 50px;
-}
-
-.category__select{
-    width: 100%;
-    height: 50px;
-    border: 1px solid gainsboro;
-    border-radius: 5px;
-}
-.create-form__button{
-    width: 15%;
+.create-form__button {
+    width: 25%;
     background-color: beige;
 }
 
-.create-form__button-submit{
+.create-form__button-submit {
     width: 100%;
     height: 50px;
     border-radius: 5px;
@@ -72,35 +59,35 @@ ul{
     cursor: pointer;
 }
 
-.todo-table__inner{
+.todo-table__inner {
     width: 1230px;
     margin: 60px auto;
 }
 
-.todo-table__row{
+.todo-table__row {
     border-bottom: 1px solid gainsboro;
 }
 
-.todo-table__header{
+.todo-table__header {
     text-align: left;
     font-size: 20px;
 }
 
-.update-form__input{
+.update-form__input {
     width: 60%;
 }
 
-.update-form__input-text{
+.update-form__input-text {
     width: 80%;
     height: 50px;
     border: none;
 }
 
-.update-form__button{
+.update-form__button {
     width: 10%;
 }
 
-.update-form__button-submit{
+.update-form__button-submit {
     width: 70%;
     height: 40px;
     background-color: blue;
@@ -109,12 +96,12 @@ ul{
     border: none;
 }
 
-.delete-form__button{
+.delete-form__button {
     width: 10%;
     text-align: right;
 }
 
-.delete-form__button-submit{
+.delete-form__button-submit {
     width: 70%;
     height: 40px;
     background-color: red;
